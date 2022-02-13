@@ -17,7 +17,7 @@
     position: relative;
     text-decoration: none;
 
-    @include onDesktop() {
+    // @include onDesktop() {
       &::before {
         content: "+1 234 555-55-55";
         position: absolute;
@@ -42,7 +42,7 @@
         opacity: 1;
         pointer-events: all;
       }
-    }
+    // }
   }
 
   &__title {
